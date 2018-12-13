@@ -1,0 +1,20 @@
+{
+  "name": "formationmongo",
+  "version": "1.0.0",
+  "description": "training on mongodb",
+  "main": "mongooseIndex.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "live": "nodemon server.js"
+  },
+  "author": "florian bartkowiak",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongodb": "^3.1.10",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.8"
+  }
+}

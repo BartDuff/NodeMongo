@@ -1,0 +1,22 @@
+html
+    head
+        meta(charset="utf-8")
+        title
+        link(rel="stylesheet" 
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" 
+        crossorigin="anonymous") 
+    body
+        h1(class="text-center") Listing all flights in 
+            span=iso
+
+        p(class="text-center") Thank you for choosing us!
+
+        table(class="table table-striped")
+            tr
+                th ident
+                th name
+            for a in airp 
+                tr
+                    td #{a.ident}
+                    td #{a.name}
